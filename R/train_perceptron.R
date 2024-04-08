@@ -10,8 +10,8 @@
 #' @param threshold Threshold value for prediction (default: 0).
 #' @return Trained perceptron model.
 #' @examples
-#' data <- synthetic_dataset()
-#' train_perceptron(data[, c("X1", "X2")], data$y)
+#' data(synthetic_dataset)
+#' train_perceptron(synthetic_dataset[, c("X1", "X2")], synthetic_dataset$y)
 #' @export
 
 train_perceptron <- function(X, y, max_iter = 100, eta = 0.01, acc_th = 0.95, threshold = 0) {
