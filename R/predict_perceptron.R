@@ -12,5 +12,4 @@
 
 predict_perceptron <- function(model, X, threshold = 0) {
   prediction <- ifelse((model$weights %*% t(X) + model$bias) >= threshold, 1, 0)
-  return(prediction)
 }

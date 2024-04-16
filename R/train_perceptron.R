@@ -54,5 +54,4 @@ train_perceptron <- function(X, y, max_iter = 100, eta = 0.01, acc_th = 0.95, th
   }
 
   model <- list(weights = weight[-1], bias = weight[1])
-  return(model)
 }
