@@ -33,6 +33,6 @@ Trained perceptron model.
 This function implements the perceptron algorithm.
 }
 \examples{
-data <- synthetic_dataset()
-train_perceptron(data[, c("X1", "X2")], data$y)
+data(synthetic_dataset)
+train_perceptron(synthetic_dataset[, c("X1", "X2")], synthetic_dataset$y)
 }

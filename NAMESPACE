@@ -3,4 +3,3 @@
 export(evaluate)
 export(predict_perceptron)
 export(train_perceptron)
-export(visualize_decision_boundary)
